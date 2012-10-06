@@ -4,6 +4,7 @@ gem 'rails', '3.2.6'
 
 group :testing do
   gem 'rspec-rails'
+  gem 'capybara', git: 'git://github.com/shepmaster/capybara.git', branch: 'added-delay'
 end
 
 # Gems used only for assets and not required
